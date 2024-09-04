@@ -1,1 +1,50 @@
-## Here is bla bla bla
+# Working with the Repository
+## git status
+Displays the status of your working directory, showing changes and files to be committed.
+
+## git add <file>
+Stages (adds) a specific file for the next commit.
+
+## git add .
+Stages all changes in the current directory (and subdirectories).
+
+## git commit -m "Commit message"
+Commits the staged changes to the repository with a descriptive message.
+
+## git commit -a -m "Commit message"
+Commits all changes to tracked files with a message, skipping the staging process.
+
+## git log
+Shows a log of all commits made to the repository, starting with the most recent.
+
+## git diff
+Shows the changes between the working directory and the index (staging area).
+
+## git diff --staged
+Shows the changes between the index and the last commit.
+
+## git restore <file>
+Discards changes in the working directory (undoes changes to a file).
+
+## git reset <file>
+Unstages a file (keeps the changes but removes the file from the staging area).
+
+# Branching and Merging
+
+## git branch
+Lists all branches in your repository and shows the current branch.
+
+## git branch <branch_name>
+Creates a new branch.
+
+## git checkout <branch_name>
+Switches to the specified branch.
+
+## git checkout -b <branch_name>
+Creates a new branch and switches to it.
+
+## git merge <branch_name>
+Merges the specified branch into the current branch.
+
+## git branch -d <branch_name>
+Deletes the specified branch.
